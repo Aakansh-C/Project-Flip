@@ -20,7 +20,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <router-view />
 
 
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <img alt="Vue logo" class="mx-auto" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" />
 
 </template>
@@ -31,7 +31,7 @@ import HelloWorld from './components/HelloWorld.vue'
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  //color: #2c3e50;
   margin-top: 60px;
 }
 </style>
