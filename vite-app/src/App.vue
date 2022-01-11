@@ -6,12 +6,23 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-     <router-link to="/">Home</router-link> |
+    <div id="nav">
+        <!--this is a temp nav bar-->
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> |
+        <router-link to="/build">Build</router-link> |
+        <router-link to="/contact">Contact</router-link> |
+        <router-link to="/login">Login</router-link> |
+        <router-link to="/shop">Shop</router-link> |
+        <router-link to="/signup">Signup</router-link>
+    </div>
 
     <router-view />
 
+
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" />
+
 </template>
 
 <style>
